@@ -1,0 +1,2788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Long Term Care From Ellen | Greensboro NC | Premier Care & LTC Insurance Planning</title>
+  <meta name="description" content="Long Term Care From Ellen provides compassionate, high-end long-term care insurance planning, in-home care coordination, and assisted living guidance in Greensboro, NC.">
+  
+  <!-- Google Fonts: Editorial Serif + Modern Clean Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       CSS Variables & Theme Setup (Client Official Branding Palette)
+       ========================================================================== */
+    :root {
+      --sage-green: #A8B9A7;
+      --sage-green-light: #C4D3C3;
+      --sage-green-soft: #EEF3EE;
+      --sage-green-dark: #6C826B;
+
+      --dusty-lavender: #AA8BAD;
+      --dusty-lavender-light: #D5C2D7;
+      --dusty-lavender-soft: #F6EFF7;
+      --dusty-lavender-dark: #7F5E82;
+
+      --deep-plum: #370D3D;
+      --deep-plum-hover: #4E1456;
+      --deep-plum-soft: #230827;
+      --deep-plum-rgb: 55, 13, 61;
+
+      --bg-cream: #FAFBF9;
+      --bg-card: #FFFFFF;
+      --text-main: #271E2B;
+      --text-muted: #6C6670;
+      --text-light: #9C95A2;
+
+      --border-subtle: rgba(170, 139, 173, 0.22);
+      --border-sage: rgba(168, 185, 167, 0.35);
+
+      --shadow-sm: 0 4px 12px rgba(55, 13, 61, 0.04);
+      --shadow-md: 0 10px 30px rgba(55, 13, 61, 0.08);
+      --shadow-lg: 0 20px 50px rgba(55, 13, 61, 0.12);
+      --shadow-glass: 0 24px 60px rgba(55, 13, 61, 0.18);
+
+      --radius-sm: 10px;
+      --radius-md: 18px;
+      --radius-lg: 28px;
+      --radius-xl: 36px;
+      --radius-pill: 9999px;
+
+      --transition-smooth: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    /* Base Reset */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-cream);
+      color: var(--text-main);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background: none;
+    }
+
+    /* Container Utility (For Standard-Width Sections) */
+    .container {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Typography Utilities */
+    .serif-italic {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-weight: 500;
+    }
+
+    .section-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: var(--radius-pill);
+      background: var(--sage-green-soft);
+      color: var(--deep-plum);
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 16px;
+      border: 1px solid var(--border-sage);
+      white-space: nowrap;
+    }
+
+    .section-tag::before {
+      content: '';
+      display: inline-block;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: var(--sage-green-dark);
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 700;
+      color: var(--deep-plum);
+      line-height: 1.2;
+      margin-bottom: 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .section-desc {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 620px;
+      line-height: 1.65;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 26px;
+      border-radius: var(--radius-pill);
+      font-size: 0.92rem;
+      font-weight: 600;
+      transition: var(--transition-smooth);
+      cursor: pointer;
+      text-align: center;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .btn-arrow {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.25);
+      transition: transform 0.3s ease;
+    }
+
+    .btn:hover .btn-arrow {
+      transform: translate(2px, -2px);
+    }
+
+    .btn-sage {
+      background: var(--sage-green);
+      color: var(--deep-plum);
+      box-shadow: 0 4px 15px rgba(168, 185, 167, 0.4);
+    }
+
+    .btn-sage:hover {
+      background: #97ab96;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(168, 185, 167, 0.5);
+    }
+
+    .btn-plum {
+      background: var(--deep-plum);
+      color: #FFFFFF;
+      box-shadow: 0 6px 20px rgba(55, 13, 61, 0.25);
+    }
+
+    .btn-plum:hover {
+      background: var(--deep-plum-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(55, 13, 61, 0.35);
+    }
+
+    .btn-outline-glass {
+      background: rgba(255, 255, 255, 0.14);
+      color: #FFFFFF;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .btn-outline-glass:hover {
+      background: rgba(255, 255, 255, 0.28);
+      border-color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline-plum {
+      background: transparent;
+      color: var(--deep-plum);
+      border: 1.5px solid var(--deep-plum);
+    }
+
+    .btn-outline-plum:hover {
+      background: var(--deep-plum);
+      color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================================
+       Header / Navigation Bar (ALL IN ONE LINE)
+       ========================================================================== */
+    .header-wrapper {
+      position: fixed;
+      top: 18px;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 0 20px;
+      pointer-events: none;
+    }
+
+    .navbar {
+      pointer-events: auto;
+      max-width: 1340px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(170, 139, 173, 0.35);
+      border-radius: var(--radius-pill);
+      padding: 7px 14px 7px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      box-shadow: 0 10px 35px rgba(55, 13, 61, 0.08);
+      transition: var(--transition-smooth);
+    }
+
+    .brand-logo-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    .brand-logo-img {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 8px rgba(55, 13, 61, 0.15);
+      border: 2px solid var(--dusty-lavender-light);
+      flex-shrink: 0;
+    }
+
+    /* Entire Business Name on ONE line in header */
+    .brand-name-single-line {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: var(--deep-plum);
+      letter-spacing: -0.01em;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    /* All Nav Menu Items on ONE line */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      list-style: none;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      margin: 0 16px;
+      flex-shrink: 0;
+    }
+
+    .nav-link {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-main);
+      transition: color 0.2s ease;
+      white-space: nowrap;
+      padding: 6px 10px;
+      border-radius: var(--radius-pill);
+      display: inline-block;
+    }
+
+    .nav-link:hover {
+      color: var(--dusty-lavender-dark);
+    }
+
+    .nav-link.active {
+      color: var(--deep-plum);
+      background: var(--sage-green-soft);
+      font-weight: 700;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+
+    .phone-pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--deep-plum);
+      padding: 8px 12px;
+      border-radius: var(--radius-pill);
+      background: var(--dusty-lavender-soft);
+      transition: var(--transition-smooth);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .phone-pill:hover {
+      background: var(--dusty-lavender-light);
+    }
+
+    .phone-pill svg {
+      color: var(--deep-plum);
+      flex-shrink: 0;
+    }
+
+    .nav-cta-btn {
+      padding: 9px 18px;
+      font-size: 0.84rem;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      width: 38px;
+      height: 38px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--sage-green-soft);
+      color: var(--deep-plum);
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================================
+       Hero Section (FULL WIDTH EDGE-TO-EDGE)
+       ========================================================================== */
+    .hero-section {
+      width: 100%;
+      min-height: 720px;
+      padding: 135px 0 65px;
+      position: relative;
+      background: 
+        linear-gradient(135deg, rgba(55, 13, 61, 0.92) 0%, rgba(55, 13, 61, 0.70) 55%, rgba(40, 10, 45, 0.90) 100%),
+        url('https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=2200&q=80') center center / cover no-repeat;
+      color: #FFFFFF;
+      box-shadow: 0 20px 50px rgba(55, 13, 61, 0.15);
+      border-bottom: 1px solid rgba(170, 139, 173, 0.25);
+    }
+
+    .hero-inner {
+      max-width: 1540px;
+      margin: 0 auto;
+      padding: 0 48px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 40px;
+      position: relative;
+      min-height: 520px;
+    }
+
+    .hero-main-content {
+      max-width: 800px;
+      z-index: 2;
+    }
+
+    .hero-top-badges {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .badge-social-proof {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      background: rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      padding: 7px 15px;
+      border-radius: var(--radius-pill);
+      font-size: 0.82rem;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .fb-icon-circle {
+      width: 20px;
+      height: 20px;
+      background: #1877F2;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 800;
+      font-size: 0.8rem;
+    }
+
+    .stars-gold {
+      color: #FFB800;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+    }
+
+    .badge-chip {
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      padding: 6px 14px;
+      border-radius: var(--radius-pill);
+      font-size: 0.76rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    /* Hero Headline featuring her actual business name */
+    .hero-headline {
+      font-size: clamp(2.5rem, 4.8vw, 4.3rem);
+      font-weight: 800;
+      line-height: 1.12;
+      max-width: 800px;
+      letter-spacing: -0.03em;
+      margin-bottom: 22px;
+    }
+
+    .hero-headline .highlight-italic {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-weight: 400;
+      color: var(--sage-green-light);
+    }
+
+    .hero-desc {
+      font-size: 1.15rem;
+      line-height: 1.6;
+      max-width: 620px;
+      color: rgba(255, 255, 255, 0.88);
+      margin-bottom: 34px;
+      font-weight: 400;
+    }
+
+    .hero-buttons {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    /* Hero Founder Trust Pill with Ellen's Photo */
+    .hero-founder-trust-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.14);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      padding: 6px 16px 6px 6px;
+      border-radius: var(--radius-pill);
+      font-size: 0.85rem;
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+
+    .hero-founder-thumb {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--sage-green-light);
+    }
+
+    /* Floating Frosted Glass Card (Hero Right with Ellen's Photo) */
+    .hero-floating-glass {
+      width: 340px;
+      flex-shrink: 0;
+      background: rgba(255, 255, 255, 0.18);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: transform 0.4s ease;
+      z-index: 2;
+    }
+
+    .hero-floating-glass:hover {
+      transform: translateY(-4px);
+    }
+
+    .floating-top-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .stat-number-wrap h3 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      line-height: 1;
+    }
+
+    .stat-number-wrap p {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.85);
+      font-weight: 500;
+      margin-top: 4px;
+    }
+
+    .avatar-stack {
+      display: flex;
+      align-items: center;
+    }
+
+    .avatar-stack img {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 2px solid #FFFFFF;
+      margin-left: -10px;
+      object-fit: cover;
+    }
+
+    .avatar-stack img:first-child {
+      margin-left: 0;
+      border-color: var(--sage-green);
+    }
+
+    /* Video / Consultation Preview featuring Ellen's photo */
+    .glass-video-preview {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      height: 135px;
+      background: url('./ellen_portrait_2.png') center 20% / cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .glass-video-preview::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(55, 13, 61, 0.2) 0%, rgba(55, 13, 61, 0.65) 100%);
+      transition: background 0.3s ease;
+    }
+
+    .glass-video-preview:hover::before {
+      background: linear-gradient(180deg, rgba(55, 13, 61, 0.1) 0%, rgba(55, 13, 61, 0.45) 100%);
+    }
+
+    .play-btn-circle {
+      position: relative;
+      z-index: 2;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.95);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--deep-plum);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+      transition: transform 0.3s ease;
+    }
+
+    .glass-video-preview:hover .play-btn-circle {
+      transform: scale(1.1);
+    }
+
+    .video-card-tag {
+      position: absolute;
+      bottom: 10px;
+      left: 12px;
+      z-index: 2;
+      font-size: 0.74rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      letter-spacing: 0.02em;
+    }
+
+    .glass-card-footer {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.76rem;
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: 600;
+    }
+
+    /* ==========================================================================
+       Trust / Affiliations Ribbon
+       ========================================================================== */
+    .trust-ribbon {
+      padding: 38px 0 58px;
+    }
+
+    .trust-title {
+      text-align: center;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-light);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 24px;
+    }
+
+    .trust-logos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 36px 54px;
+      opacity: 0.9;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--deep-plum);
+      letter-spacing: -0.01em;
+      transition: opacity 0.2s ease;
+    }
+
+    .trust-item:hover {
+      opacity: 1;
+      color: var(--dusty-lavender-dark);
+    }
+
+    .trust-item svg {
+      width: 22px;
+      height: 22px;
+      color: var(--sage-green-dark);
+    }
+
+    /* ==========================================================================
+       About Ellen Section (FULL WIDTH DUAL PORTRAIT SHOWCASE)
+       ========================================================================== */
+    .about-section {
+      width: 100%;
+      padding: 105px 0 115px;
+      background: linear-gradient(135deg, #FAFBF9 0%, #F3F5F0 100%);
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .about-inner-full {
+      max-width: 1540px;
+      margin: 0 auto;
+      padding: 0 48px;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 500px 1fr;
+      gap: 84px;
+      align-items: center;
+    }
+
+    .about-dual-image-card {
+      position: relative;
+    }
+
+    /* Primary Portrait Frame: Formal suit with brooch */
+    .about-primary-frame {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      aspect-ratio: 4 / 4.9;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      border: 10px solid #FFFFFF;
+      background: #EFEFEF;
+    }
+
+    .about-primary-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform 0.6s ease;
+    }
+
+    .about-primary-frame:hover img {
+      transform: scale(1.03);
+    }
+
+    /* Secondary Prominent Portrait Frame: Warm smiling with pearls */
+    .about-secondary-frame {
+      position: absolute;
+      bottom: -28px;
+      right: -28px;
+      width: 175px;
+      height: 210px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 7px solid #FFFFFF;
+      box-shadow: var(--shadow-lg);
+      background: #EFEFEF;
+      transition: transform 0.4s ease;
+    }
+
+    .about-secondary-frame:hover {
+      transform: translateY(-4px) scale(1.02);
+    }
+
+    .about-secondary-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 15%;
+    }
+
+    .about-floating-badge {
+      position: absolute;
+      top: 24px;
+      left: -20px;
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+      padding: 12px 18px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      z-index: 3;
+    }
+
+    .about-badge-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--sage-green-soft);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--deep-plum);
+    }
+
+    .about-badge-text h4 {
+      font-size: 0.86rem;
+      font-weight: 800;
+      color: var(--deep-plum);
+    }
+
+    .about-badge-text p {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    .about-social-links {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-top: 40px;
+    }
+
+    .social-link-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      border: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--deep-plum);
+      transition: var(--transition-smooth);
+    }
+
+    .social-link-icon:hover {
+      background: var(--deep-plum);
+      color: #FFFFFF;
+      transform: translateY(-2px);
+    }
+
+    .about-content-col {
+      padding-left: 10px;
+    }
+
+    .about-lead-text {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: var(--deep-plum);
+      line-height: 1.6;
+      margin-bottom: 22px;
+    }
+
+    .about-paragraphs {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.75;
+      margin-bottom: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .about-points {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 38px;
+    }
+
+    .about-point-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.94rem;
+      font-weight: 600;
+      color: var(--deep-plum);
+    }
+
+    .about-point-item svg {
+      width: 18px;
+      height: 18px;
+      color: var(--sage-green-dark);
+      margin-top: 3px;
+      flex-shrink: 0;
+    }
+
+    .about-cta-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    /* ==========================================================================
+       "Our Services" Section (Tall Rounded Cards)
+       ========================================================================== */
+    .services-section {
+      padding: 95px 0;
+      background: #FFFFFF;
+      position: relative;
+    }
+
+    .services-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 54px;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .service-card {
+      position: relative;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      min-height: 480px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 30px 24px;
+      color: #FFFFFF;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-smooth);
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(55, 13, 61, 0.22) 0%, rgba(55, 13, 61, 0.88) 65%, rgba(55, 13, 61, 0.98) 100%);
+      z-index: 1;
+      transition: background 0.4s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .service-card:hover::before {
+      background: linear-gradient(180deg, rgba(55, 13, 61, 0.12) 0%, rgba(55, 13, 61, 0.80) 55%, rgba(55, 13, 61, 0.95) 100%);
+    }
+
+    .service-card-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .service-card:hover .service-card-bg {
+      transform: scale(1.08);
+    }
+
+    .service-card-top {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .service-tag-pill {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      padding: 6px 14px;
+      border-radius: var(--radius-pill);
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .service-icon-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFFFF;
+    }
+
+    .service-card-bottom {
+      position: relative;
+      z-index: 2;
+    }
+
+    .service-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 12px;
+      color: #FFFFFF;
+    }
+
+    .service-desc {
+      font-size: 0.88rem;
+      line-height: 1.55;
+      color: rgba(255, 255, 255, 0.84);
+      margin-bottom: 22px;
+    }
+
+    .service-btn {
+      width: 100%;
+      background: rgba(255, 255, 255, 0.94);
+      color: var(--deep-plum);
+      padding: 12px 20px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      border-radius: var(--radius-pill);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: var(--transition-smooth);
+    }
+
+    .service-card:hover .service-btn {
+      background: var(--sage-green);
+      color: var(--deep-plum);
+    }
+
+    /* ==========================================================================
+       "Our Process" Section (Bento Grid 4-Step Layout)
+       ========================================================================== */
+    .process-section {
+      padding: 100px 0;
+      background: var(--bg-cream);
+    }
+
+    .process-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 50px;
+    }
+
+    .process-bento-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto auto;
+      gap: 24px;
+    }
+
+    .bento-card {
+      background: #FFFFFF;
+      border-radius: var(--radius-xl);
+      padding: 36px 30px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition-smooth);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .bento-card:hover {
+      box-shadow: var(--shadow-md);
+      transform: translateY(-4px);
+    }
+
+    .step-badge {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--dusty-lavender-dark);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 12px;
+      display: inline-block;
+    }
+
+    .bento-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--deep-plum);
+      line-height: 1.3;
+      margin-bottom: 12px;
+    }
+
+    .bento-desc {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .bento-img-wrap {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      height: 190px;
+      background: #EBEBEB;
+    }
+
+    .bento-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bento-interactive-graphic {
+      height: 190px;
+      background: var(--sage-green-soft);
+      border-radius: var(--radius-lg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border: 1px dashed var(--sage-green-dark);
+    }
+
+    .graphic-center-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #FFFFFF;
+      border: 2px solid var(--dusty-lavender);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-md);
+      color: var(--deep-plum);
+      animation: pulse-ring 3s infinite;
+    }
+
+    @keyframes pulse-ring {
+      0% { box-shadow: 0 0 0 0 rgba(170, 139, 173, 0.4); }
+      70% { box-shadow: 0 0 0 16px rgba(170, 139, 173, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(170, 139, 173, 0); }
+    }
+
+    /* Wide Bento Card for Step 04: Prominently featuring Ellen's Guarantee & Photo */
+    .bento-card-wide {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: 1.2fr 380px;
+      gap: 36px;
+      align-items: center;
+      background: linear-gradient(135deg, var(--sage-green) 0%, #8ca18b 100%);
+      color: var(--deep-plum);
+      border-radius: var(--radius-xl);
+      padding: 48px 44px;
+      box-shadow: var(--shadow-md);
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      border: none;
+    }
+
+    .bento-card-wide .step-badge {
+      color: var(--deep-plum);
+      opacity: 0.85;
+    }
+
+    .bento-card-wide .bento-title {
+      font-size: 1.85rem;
+      color: var(--deep-plum);
+      margin-bottom: 14px;
+    }
+
+    .bento-card-wide .bento-desc {
+      color: #271E2B;
+      font-size: 1.05rem;
+      max-width: 620px;
+      line-height: 1.6;
+    }
+
+    /* Founder Commitment Box with Ellen's portrait */
+    .founder-commitment-card {
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(14px);
+      padding: 28px 24px;
+      border-radius: var(--radius-lg);
+      box-shadow: 0 10px 30px rgba(55, 13, 61, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .founder-quote-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .founder-quote-img {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 15%;
+      border: 3px solid var(--sage-green);
+      flex-shrink: 0;
+    }
+
+    .founder-quote-info h4 {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--deep-plum);
+      line-height: 1.2;
+    }
+
+    .founder-quote-info p {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .founder-quote-body {
+      font-size: 0.88rem;
+      font-style: italic;
+      color: var(--text-main);
+      line-height: 1.55;
+      border-left: 3px solid var(--dusty-lavender);
+      padding-left: 12px;
+    }
+
+    .checklist-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--deep-plum);
+    }
+
+    .check-circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--deep-plum);
+      color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.72rem;
+      flex-shrink: 0;
+    }
+
+    /* ==========================================================================
+       Glassmorphism Interactive Care Calculator Section
+       ========================================================================== */
+    .calculator-section {
+      padding: 95px 0;
+      background: linear-gradient(180deg, #FFFFFF 0%, var(--bg-cream) 100%);
+      position: relative;
+    }
+
+    .calc-wrapper {
+      position: relative;
+      border-radius: var(--radius-xl);
+      padding: 60px 48px;
+      background: 
+        radial-gradient(circle at 10% 20%, rgba(170, 139, 173, 0.22) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(168, 185, 167, 0.35) 0%, transparent 45%),
+        #FAFBF9;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-md);
+    }
+
+    .calc-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .calc-slider-group {
+      margin-bottom: 28px;
+    }
+
+    .slider-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .slider-label {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--deep-plum);
+    }
+
+    .slider-val {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--dusty-lavender-dark);
+      background: #FFFFFF;
+      padding: 4px 14px;
+      border-radius: var(--radius-pill);
+      box-shadow: var(--shadow-sm);
+    }
+
+    input[type=range] {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 8px;
+      background: var(--dusty-lavender-light);
+      border-radius: 4px;
+      outline: none;
+    }
+
+    input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--deep-plum);
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(55, 13, 61, 0.3);
+      border: 2px solid #FFFFFF;
+      transition: transform 0.15s ease;
+    }
+
+    input[type=range]::-webkit-slider-thumb:hover {
+      transform: scale(1.15);
+    }
+
+    .calc-setting-tabs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .tab-btn {
+      padding: 12px;
+      border-radius: var(--radius-md);
+      background: #FFFFFF;
+      border: 1px solid var(--border-subtle);
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--text-main);
+      text-align: center;
+      transition: var(--transition-smooth);
+    }
+
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--deep-plum);
+      color: #FFFFFF;
+      border-color: var(--deep-plum);
+    }
+
+    /* Glass Output Box */
+    .calc-results-glass {
+      background: rgba(255, 255, 255, 0.74);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.95);
+      border-radius: var(--radius-xl);
+      padding: 38px 32px;
+      box-shadow: var(--shadow-glass);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .calc-stat-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .calc-stat-row:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .calc-stat-title {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .calc-stat-num {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--deep-plum);
+    }
+
+    .calc-stat-num.highlight-green {
+      color: var(--sage-green-dark);
+    }
+
+    /* ==========================================================================
+       Testimonials Section
+       ========================================================================== */
+    .testimonials-section {
+      padding: 95px 0;
+      background: #FFFFFF;
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 48px;
+    }
+
+    .testimonial-card {
+      background: var(--bg-cream);
+      border-radius: var(--radius-xl);
+      padding: 34px 28px;
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: var(--transition-smooth);
+    }
+
+    .testimonial-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      background: #FFFFFF;
+    }
+
+    .quote-text {
+      font-size: 1.02rem;
+      color: var(--text-main);
+      line-height: 1.65;
+      margin-bottom: 24px;
+      font-style: italic;
+    }
+
+    .testimonial-author-wrap {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .author-avatar {
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--sage-green);
+    }
+
+    .author-info h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--deep-plum);
+    }
+
+    .author-info p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* ==========================================================================
+       CTA Banner Section (Deep Plum Background)
+       ========================================================================== */
+    .cta-banner-section {
+      padding: 60px 24px 85px;
+    }
+
+    .cta-banner-card {
+      background: linear-gradient(135deg, var(--deep-plum) 0%, #200524 100%);
+      border-radius: var(--radius-xl);
+      padding: 64px 48px;
+      color: #FFFFFF;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .cta-banner-card::before {
+      content: '';
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(170, 139, 173, 0.25) 0%, transparent 70%);
+      top: -150px;
+      left: -150px;
+    }
+
+    .cta-banner-card::after {
+      content: '';
+      position: absolute;
+      width: 450px;
+      height: 450px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(168, 185, 167, 0.25) 0%, transparent 70%);
+      bottom: -150px;
+      right: -150px;
+    }
+
+    .cta-banner-title {
+      font-size: clamp(2rem, 3.8vw, 3.2rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .cta-banner-desc {
+      font-size: 1.15rem;
+      color: rgba(255, 255, 255, 0.84);
+      max-width: 660px;
+      margin: 0 auto 36px;
+      line-height: 1.6;
+    }
+
+    .cta-buttons-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* ==========================================================================
+       Footer (Deep Plum Luxury Styling with Official Business Name)
+       ========================================================================== */
+    .footer {
+      background: var(--deep-plum);
+      color: #FFFFFF;
+      padding: 80px 0 36px;
+      border-top: 1px solid rgba(170, 139, 173, 0.2);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 48px;
+      margin-bottom: 60px;
+    }
+
+    .footer-brand-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .footer-logo-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .footer-logo-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid var(--dusty-lavender);
+    }
+
+    .footer-desc {
+      font-size: 0.92rem;
+      color: rgba(255, 255, 255, 0.74);
+      line-height: 1.65;
+      max-width: 320px;
+    }
+
+    .footer-col h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+      letter-spacing: 0.02em;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-links a {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.74);
+      transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--sage-green-light);
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.88);
+      margin-bottom: 14px;
+    }
+
+    .footer-contact-item svg {
+      width: 18px;
+      height: 18px;
+      color: var(--sage-green);
+      margin-top: 3px;
+      flex-shrink: 0;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      padding-top: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.55);
+    }
+
+    .footer-legal-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .footer-legal-links a:hover {
+      color: #FFFFFF;
+    }
+
+    /* ==========================================================================
+       Interactive Consultation Dialog / Modal (Native HTML5 Dialog)
+       ========================================================================== */
+    dialog#consultation-modal {
+      border: none;
+      padding: 0;
+      background: transparent;
+      max-width: 580px;
+      width: 90%;
+      margin: auto;
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    }
+
+    dialog#consultation-modal::backdrop {
+      background: rgba(55, 13, 61, 0.65);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .modal-content {
+      background: #FFFFFF;
+      padding: 44px;
+      position: relative;
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--bg-cream);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--deep-plum);
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .modal-close-btn:hover {
+      background: var(--dusty-lavender-light);
+    }
+
+    .modal-form {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-label {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--deep-plum);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      width: 100%;
+      padding: 12px 16px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      font-family: inherit;
+      font-size: 0.92rem;
+      color: var(--text-main);
+      background: var(--bg-cream);
+      transition: border 0.2s ease;
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--deep-plum);
+      outline: none;
+      background: #FFFFFF;
+    }
+
+    /* Toast Notification */
+    .toast-notice {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--deep-plum);
+      color: #FFFFFF;
+      padding: 16px 24px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      transform: translateY(120%);
+      transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 2000;
+      border: 1px solid var(--dusty-lavender);
+    }
+
+    .toast-notice.show {
+      transform: translateY(0);
+    }
+
+    /* ==========================================================================
+       Responsive Media Queries
+       ========================================================================== */
+    @media (max-width: 1240px) {
+      .navbar {
+        padding: 6px 12px 6px 14px;
+      }
+      .nav-links {
+        gap: 12px;
+        margin: 0 8px;
+      }
+      .brand-name-single-line {
+        font-size: 0.9rem;
+      }
+      .phone-pill {
+        display: none; /* Keep all header words strictly in one line */
+      }
+      .hero-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 32px;
+      }
+      .hero-floating-glass {
+        width: 100%;
+        max-width: 440px;
+        margin-top: 36px;
+      }
+      .about-grid {
+        grid-template-columns: 440px 1fr;
+        gap: 50px;
+      }
+      .about-inner-full {
+        padding: 0 32px;
+      }
+    }
+
+    @media (max-width: 1040px) {
+      .nav-container {
+        display: none;
+      }
+      .mobile-menu-btn {
+        display: flex;
+      }
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .process-bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .bento-card-wide {
+        grid-column: 1 / -1;
+        grid-template-columns: 1fr;
+        padding: 36px 28px;
+        gap: 28px;
+      }
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+      }
+      .about-dual-image-card {
+        max-width: 480px;
+        margin: 0 auto;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-section {
+        padding: 105px 0 50px;
+      }
+      .hero-inner {
+        padding: 0 20px;
+      }
+      .about-section {
+        padding: 70px 0;
+      }
+      .about-inner-full {
+        padding: 0 20px;
+      }
+      .calc-grid {
+        grid-template-columns: 1fr;
+      }
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      .process-bento-grid {
+        grid-template-columns: 1fr;
+      }
+      .testimonials-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Floating Pill Sticky Header / Navigation (ALL IN ONE LINE)
+       ========================================================================== -->
+  <div class="header-wrapper">
+    <header class="navbar">
+      
+      <!-- Brand Logo & Exact Business Name in ONE Line -->
+      <a href="#hero" class="brand-logo-group">
+        <img src="./logo.jpg" alt="Long Term Care From Ellen Logo" class="brand-logo-img">
+        <span class="brand-name-single-line">Long Term Care From Ellen</span>
+      </a>
+
+      <!-- Center Nav Links: ALL WORDS IN ONE LINE -->
+      <nav class="nav-container">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About Ellen</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#process" class="nav-link">Our Process</a></li>
+          <li><a href="#calculator" class="nav-link">Care Cost Guide</a></li>
+          <li><a href="#testimonials" class="nav-link">Stories</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Action Group: ONE LINE -->
+      <div class="nav-actions">
+        <a href="tel:3364587290" class="phone-pill" title="Direct Phone">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span>(336) 458-7290</span>
+        </a>
+        <button class="btn btn-plum nav-cta-btn" onclick="openConsultationModal()">
+          <span>Free Assessment</span>
+          <span class="btn-arrow">↗</span>
+        </button>
+        <button class="mobile-menu-btn" onclick="toggleMobileNav()" aria-label="Toggle Navigation">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+  </div>
+
+  <!-- ==========================================================================
+       Hero Section (FULL WIDTH EDGE-TO-EDGE)
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-inner">
+      
+      <!-- Hero Content (Left) -->
+      <div class="hero-main-content">
+        <div class="hero-top-badges">
+          <div class="badge-social-proof">
+            <span class="fb-icon-circle">f</span>
+            <span class="stars-gold">★★★★★</span>
+            <span>5.0 Rating • 100% Positive Feedback</span>
+          </div>
+          <span class="badge-chip">Long-Term Care Planning</span>
+          <span class="badge-chip">Greensboro, NC</span>
+          <span class="badge-chip">Licensed Care Specialist</span>
+        </div>
+
+        <!-- Headline featuring her actual business name -->
+        <h1 class="hero-headline">
+          Long Term Care From Ellen,<br>
+          <span class="highlight-italic">guided with heart</span>
+        </h1>
+
+        <p class="hero-desc">
+          Navigating long-term care insurance, in-home support, and assisted living transitions across Greensboro, High Point, and the Triad — independent, compassionate advocacy for your family's future.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="btn btn-sage" onclick="openConsultationModal()">
+            <span>Book Free Care Assessment</span>
+            <span class="btn-arrow">↗</span>
+          </button>
+          <a href="tel:3364587290" class="btn btn-outline-glass">
+            <span>Call Ellen Directly</span>
+            <span class="btn-arrow">↗</span>
+          </a>
+        </div>
+
+        <!-- Prominent Founder Trust Pill featuring Ellen's real photo -->
+        <div class="hero-founder-trust-pill">
+          <img src="./ellen_portrait_2.png" alt="Ellen Rich" class="hero-founder-thumb">
+          <span>Direct Guidance from Ellen • Personal Triad Family Support</span>
+        </div>
+      </div>
+
+      <!-- Floating Frosted Glass Card (Hero Right with Ellen's real photo) -->
+      <div class="hero-floating-glass">
+        <div class="floating-top-row">
+          <div class="stat-number-wrap">
+            <h3>500+</h3>
+            <p>Triad Families Guided</p>
+          </div>
+          <div class="avatar-stack">
+            <img src="./ellen_portrait_2.png" alt="Ellen Rich" title="Ellen">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80" alt="Client Avatar">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Client Avatar">
+          </div>
+        </div>
+
+        <!-- Video / Consultation Thumbnail Preview featuring Ellen's photo -->
+        <div class="glass-video-preview" onclick="openConsultationModal()" title="Meet Ellen • Watch Welcome Video">
+          <div class="play-btn-circle">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+          </div>
+          <span class="video-card-tag">Meet Ellen • Free Consultation</span>
+        </div>
+
+        <div class="glass-card-footer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <span>Licensed NC Specialist • Fiduciary Dedication</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Trust / Affiliations Ribbon
+       ========================================================================== -->
+  <section class="trust-ribbon">
+    <div class="container">
+      <p class="trust-title">Recognized & Accredited Across North Carolina Elder Care Networks</p>
+      <div class="trust-logos">
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+          <span>AALTCI Certified</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          <span>National Care Planning Council</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+          <span>Greensboro Chamber of Commerce</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <span>Certified Senior Advisor</span>
+        </div>
+        <div class="trust-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          <span>NC Dept of Insurance Licensed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About Ellen Section (FULL WIDTH DUAL PORTRAIT SHOWCASE)
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="about-inner-full">
+      <div class="about-grid">
+        
+        <!-- Left: Dual Portrait Composition of Ellen -->
+        <div class="about-dual-image-card">
+          <!-- Primary Portrait Frame: Formal suit with brooch -->
+          <div class="about-primary-frame">
+            <img src="./ellen_portrait_1.jpg" alt="Ellen Rich - Long Term Care From Ellen">
+          </div>
+
+          <!-- Secondary Inset Frame: Warm smiling with pearls -->
+          <div class="about-secondary-frame" title="Ellen - Personal Family Care Advocate">
+            <img src="./ellen_portrait_2.png" alt="Ellen Smiling">
+          </div>
+
+          <!-- Floating Credentials Badge -->
+          <div class="about-floating-badge">
+            <div class="about-badge-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+            </div>
+            <div class="about-badge-text">
+              <h4>Ellen • Founder</h4>
+              <p>20+ Years Triad Care Guidance</p>
+            </div>
+          </div>
+
+          <div class="about-social-links">
+            <a href="https://www.facebook.com/ltcfromellen/" target="_blank" rel="noopener noreferrer" class="social-link-icon" title="Follow Ellen on Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+            <a href="mailto:ellen@ltcfromellen.com" class="social-link-icon" title="Email Ellen Directly">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </a>
+            <a href="tel:3364587290" class="social-link-icon" title="Call Direct Office">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Authentic Narrative -->
+        <div class="about-content-col">
+          <div class="section-tag">About Ellen</div>
+          <h2 class="section-title">
+            Care planning built on clarity, empathy, and <span class="serif-italic">proven experience.</span>
+          </h2>
+          
+          <p class="about-lead-text">
+            Ellen graduated from the University of Miami with a bachelor’s degree in organizational communication. As a mother of two and a dedicated long-term care specialist in Greensboro, NC, she brings unmatched clarity to one of life's most complex transitions.
+          </p>
+
+          <div class="about-paragraphs">
+            <p>
+              Navigating long-term care can often feel overwhelming, emotionally heavy, and full of confusing insurance jargon. Ellen founded <strong>Long Term Care From Ellen</strong> with a single driving mission: to give families in Central North Carolina care guidance and financial security they can genuinely count on.
+            </p>
+            <p>
+              By combining her deep foundation in organizational communication with over two decades of local care advocacy, Ellen works alongside your family to design proactive protection—safeguarding hard-earned retirement assets, coordinating reputable local caregivers, and preserving dignity at every stage of life.
+            </p>
+          </div>
+
+          <div class="about-points">
+            <div class="about-point-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Independent & Carrier-Agnostic Advice</span>
+            </div>
+            <div class="about-point-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Greensboro & Triad Provider Network</span>
+            </div>
+            <div class="about-point-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Hybrid Life & Asset-Based LTC Plans</span>
+            </div>
+            <div class="about-point-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>Lifetime Annual Policy Reviews</span>
+            </div>
+          </div>
+
+          <div class="about-cta-row">
+            <button class="btn btn-sage" onclick="openConsultationModal()">
+              <span>Schedule a Free Conversation</span>
+              <span class="btn-arrow">↗</span>
+            </button>
+            <a href="tel:3364587290" class="btn btn-outline-plum">
+              <span>Call Ellen Now</span>
+              <span class="btn-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       "Our Services" Section (Tall Rounded Cards)
+       ========================================================================== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="services-header">
+        <div>
+          <div class="section-tag">Our Care Services</div>
+          <h2 class="section-title">
+            Everything your <span class="serif-italic">family needs</span>
+          </h2>
+          <p class="section-desc">
+            We handle the full continuum of care planning — so you never have to navigate confusing insurance fine-print or elder care systems alone.
+          </p>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        
+        <!-- Service Card 1 -->
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80" alt="LTC Insurance Review" class="service-card-bg">
+          <div class="service-card-top">
+            <span class="service-tag-pill">Insurance Audit</span>
+            <div class="service-icon-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+          </div>
+          <div class="service-card-bottom">
+            <h3 class="service-title">LTC Insurance & Policy Audits</h3>
+            <p class="service-desc">
+              Comprehensive analysis of existing coverage, premium inflation riders, and modern hybrid asset-based plans.
+            </p>
+            <button class="service-btn" onclick="openConsultationModal()">
+              <span>Explore Coverage</span>
+              <span>↗</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1516307365426-bea591f05011?auto=format&fit=crop&w=800&q=80" alt="In-Home Care Coordination" class="service-card-bg">
+          <div class="service-card-top">
+            <span class="service-tag-pill">Aging In Place</span>
+            <div class="service-icon-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            </div>
+          </div>
+          <div class="service-card-bottom">
+            <h3 class="service-title">In-Home Care Coordination</h3>
+            <p class="service-desc">
+              Vetting local home health aides, daily living assistance, and safety adaptations so seniors can stay independent at home.
+            </p>
+            <button class="service-btn" onclick="openConsultationModal()">
+              <span>Learn More</span>
+              <span>↗</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80" alt="Assisted Living & Memory Care" class="service-card-bg">
+          <div class="service-card-top">
+            <span class="service-tag-pill">Community Care</span>
+            <div class="service-icon-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+          </div>
+          <div class="service-card-bottom">
+            <h3 class="service-title">Assisted Living & Memory Care</h3>
+            <p class="service-desc">
+              Objective community assessments across Greensboro, tour guidance, and personalized memory care placement.
+            </p>
+            <button class="service-btn" onclick="openConsultationModal()">
+              <span>View Communities</span>
+              <span>↗</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80" alt="Asset Protection" class="service-card-bg">
+          <div class="service-card-top">
+            <span class="service-tag-pill">Asset Defense</span>
+            <div class="service-icon-circle">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+          </div>
+          <div class="service-card-bottom">
+            <h3 class="service-title">Asset Protection & Crisis Support</h3>
+            <p class="service-desc">
+              Shielding retirement savings from devastating out-of-pocket health costs and rapid intervention when emergencies occur.
+            </p>
+            <button class="service-btn" onclick="openConsultationModal()">
+              <span>Protect Wealth</span>
+              <span>↗</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       "Our Process" Section (Prominently Featuring Ellen's Personal Commitment)
+       ========================================================================== -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="process-header">
+        <div>
+          <div class="section-tag">Our Proven Process</div>
+          <h2 class="section-title">
+            How we guide you, <span class="serif-italic">start to finish</span>
+          </h2>
+          <p class="section-desc">
+            Personalized, transparent care management with proven experience and a family-first philosophy.
+          </p>
+        </div>
+        <div class="phone-pill">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+          <span>No Obligation Review</span>
+        </div>
+      </div>
+
+      <div class="process-bento-grid">
+        
+        <!-- Step 01 -->
+        <div class="bento-card">
+          <div>
+            <span class="step-badge">Step 01</span>
+            <h3 class="bento-title">Free Family Discovery & Assessment</h3>
+            <p class="bento-desc">
+              We sit down with your family to understand your health history, existing coverage, budget, and long-term living preferences.
+            </p>
+          </div>
+          <div class="bento-img-wrap">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Assessment">
+          </div>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="bento-card">
+          <div>
+            <span class="step-badge">Step 02</span>
+            <h3 class="bento-title">Personalized Care & Coverage Roadmap</h3>
+            <p class="bento-desc">
+              Ellen crafts a custom plan comparing independent carrier options, benefit multipliers, and local Triad care providers.
+            </p>
+          </div>
+          <div class="bento-interactive-graphic">
+            <div class="graphic-center-circle">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m10 15 5-3-5-3v6z"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="bento-card">
+          <div>
+            <span class="step-badge">Step 03</span>
+            <h3 class="bento-title">Seamless Implementation & Setup</h3>
+            <p class="bento-desc">
+              We manage the paperwork, underwriter inquiries, and provider contracts, ensuring every detail is clear and secure.
+            </p>
+          </div>
+          <div class="bento-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=600&q=80" alt="Implementation">
+          </div>
+        </div>
+
+        <!-- Step 04 (Wide Card Prominently Featuring Ellen's Real Portrait & Commitment) -->
+        <div class="bento-card-wide">
+          <div>
+            <span class="step-badge">Step 04 • Satisfaction Guarantee</span>
+            <h3 class="bento-title">We don't leave after the plan is set.</h3>
+            <p class="bento-desc">
+              Every plan backed by Ellen's ongoing personal commitment. As family health needs evolve or claims need filing, Ellen remains your dedicated advocate every single step of the way.
+            </p>
+            <div style="margin-top: 24px;">
+              <button class="btn btn-plum" onclick="openConsultationModal()">
+                <span>Begin Step 01 with Ellen</span>
+                <span class="btn-arrow">↗</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Featured Founder Commitment Card with Ellen's portrait -->
+          <div class="founder-commitment-card">
+            <div class="founder-quote-header">
+              <img src="./ellen_portrait_2.png" alt="Ellen Rich" class="founder-quote-img">
+              <div class="founder-quote-info">
+                <h4>Ellen</h4>
+                <p>Founder & Family Advocate</p>
+              </div>
+            </div>
+
+            <p class="founder-quote-body">
+              "I treat every client's family as if they were my own. When questions arise or care needs change, you call me directly."
+            </p>
+
+            <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 4px;">
+              <div class="checklist-item">
+                <span class="check-circle">✓</span>
+                <span>Annual Policy & Premium Audits</span>
+              </div>
+              <div class="checklist-item">
+                <span class="check-circle">✓</span>
+                <span>Direct Claims Filing Assistance</span>
+              </div>
+              <div class="checklist-item">
+                <span class="check-circle">✓</span>
+                <span>Lifelong Triad Care Transitions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Interactive Glassmorphism Section: NC Care Cost Calculator
+       ========================================================================== -->
+  <section class="calculator-section" id="calculator">
+    <div class="container">
+      <div class="calc-wrapper">
+        <div class="calc-grid">
+          
+          <!-- Controls -->
+          <div>
+            <div class="section-tag">Interactive Planning Tool</div>
+            <h2 class="section-title">
+              North Carolina Care Cost & <span class="serif-italic">Benefit Estimator</span>
+            </h2>
+            <p class="section-desc" style="margin-bottom: 30px;">
+              See how anticipated care expenses compare to a dedicated long-term care policy in the Piedmont Triad region.
+            </p>
+
+            <!-- Care Setting Tabs -->
+            <label class="form-label" style="margin-bottom: 8px; display: block;">Select Care Setting:</label>
+            <div class="calc-setting-tabs">
+              <button class="tab-btn active" onclick="setCareSetting('home', this)">Home Health</button>
+              <button class="tab-btn" onclick="setCareSetting('assisted', this)">Assisted Living</button>
+              <button class="tab-btn" onclick="setCareSetting('nursing', this)">Skilled Nursing</button>
+            </div>
+
+            <!-- Duration Slider -->
+            <div class="calc-slider-group">
+              <div class="slider-header">
+                <span class="slider-label">Projected Care Duration</span>
+                <span class="slider-val" id="duration-val">3 Years</span>
+              </div>
+              <input type="range" id="duration-slider" min="1" max="5" value="3" oninput="updateCalculator()">
+            </div>
+
+            <!-- Coverage Benefit Slider -->
+            <div class="calc-slider-group">
+              <div class="slider-header">
+                <span class="slider-label">Target Monthly Benefit</span>
+                <span class="slider-val" id="benefit-val">$5,000 / mo</span>
+              </div>
+              <input type="range" id="benefit-slider" min="3000" max="9000" step="500" value="5000" oninput="updateCalculator()">
+            </div>
+          </div>
+
+          <!-- Glass Output Panel -->
+          <div class="calc-results-glass">
+            <h3 style="font-size: 1.3rem; font-weight: 800; color: var(--deep-plum);">Estimated Financial Impact</h3>
+            
+            <div class="calc-stat-row">
+              <span class="calc-stat-title">Estimated Out-of-Pocket Cost (NC Avg):</span>
+              <span class="calc-stat-num" id="total-care-cost">$180,000</span>
+            </div>
+
+            <div class="calc-stat-row">
+              <span class="calc-stat-title">Covered by Planned LTC Insurance:</span>
+              <span class="calc-stat-num highlight-green" id="covered-amount">$180,000</span>
+            </div>
+
+            <div class="calc-stat-row">
+              <span class="calc-stat-title">Estimated Family Retirement Preserved:</span>
+              <span class="calc-stat-num" id="assets-saved" style="color: var(--dusty-lavender-dark);">$180,000</span>
+            </div>
+
+            <p style="font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;">
+              *Estimates based on current NC Genworth Cost of Care benchmarks for Greensboro/High Point area. Actual benefits depend on underwriting and policy terms.
+            </p>
+
+            <button class="btn btn-plum" style="width: 100%;" onclick="openConsultationModal()">
+              <span>Get Your Personalized Strategy</span>
+              <span class="btn-arrow">↗</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Testimonials Section
+       ========================================================================== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+        <div class="section-tag">Client Voices</div>
+        <h2 class="section-title">
+          Trusted by families across <span class="serif-italic">the Piedmont Triad</span>
+        </h2>
+        <p class="section-desc" style="margin: 0 auto;">
+          Real experiences from clients who found peace of mind, financial security, and compassionate guidance with Ellen.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="stars-gold" style="margin-bottom: 14px;">★★★★★</div>
+            <p class="quote-text">
+              "Ellen was an absolute lifesaver when my mother experienced a sudden decline. Her communication background and deep knowledge of NC care policies made an agonizing situation crystal clear."
+            </p>
+          </div>
+          <div class="testimonial-author-wrap">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80" alt="Sarah J." class="author-avatar">
+            <div class="author-info">
+              <h4>Sarah J.</h4>
+              <p>Greensboro, NC</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="stars-gold" style="margin-bottom: 14px;">★★★★★</div>
+            <p class="quote-text">
+              "We had no idea whether our old policy had kept up with current assisted living costs. Ellen performed a thorough review and saved us thousands in unnecessary premiums while boosting our coverage."
+            </p>
+          </div>
+          <div class="testimonial-author-wrap">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Robert & Linda M." class="author-avatar">
+            <div class="author-info">
+              <h4>Robert & Linda M.</h4>
+              <p>High Point, NC</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div>
+            <div class="stars-gold" style="margin-bottom: 14px;">★★★★★</div>
+            <p class="quote-text">
+              "As an adult daughter living out of state, having Ellen coordinate with local caregivers and keep my brother and me aligned gave our entire family incredible peace of mind."
+            </p>
+          </div>
+          <div class="testimonial-author-wrap">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80" alt="Patricia K." class="author-avatar">
+            <div class="author-info">
+              <h4>Patricia K.</h4>
+              <p>Summerfield, NC</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CTA Banner Section (Deep Plum Background)
+       ========================================================================== -->
+  <section class="cta-banner-section" id="contact">
+    <div class="container">
+      <div class="cta-banner-card">
+        <h2 class="cta-banner-title">
+          Protect your independence.<br>
+          <span class="serif-italic" style="color: var(--sage-green-light);">Give your family peace of mind.</span>
+        </h2>
+        <p class="cta-banner-desc">
+          Schedule a relaxed, no-pressure discovery session with Ellen today to review your options and create a confident care plan.
+        </p>
+        <div class="cta-buttons-center">
+          <button class="btn btn-sage" onclick="openConsultationModal()">
+            <span>Book Your Free Consultation</span>
+            <span class="btn-arrow">↗</span>
+          </button>
+          <a href="tel:3364587290" class="btn btn-outline-glass">
+            <span>Call (336) 458-7290</span>
+            <span class="btn-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer (Deep Plum Luxury Styling with Official Business Name)
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Brand Summary -->
+        <div class="footer-brand-wrap">
+          <div class="footer-logo-row">
+            <img src="./logo.jpg" alt="Long Term Care From Ellen" class="footer-logo-img">
+            <div>
+              <h3 style="font-size: 1.15rem; font-weight: 800; line-height: 1.1;">Long Term Care From Ellen</h3>
+              <p style="font-size: 0.8rem; color: var(--dusty-lavender-light);">Independent Care Specialist</p>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Independent, high-end long-term care insurance guidance and family advocacy serving Greensboro, NC and surrounding Triad communities.
+          </p>
+          <div style="display: flex; gap: 12px; margin-top: 8px;">
+            <a href="https://www.facebook.com/ltcfromellen/" target="_blank" rel="noopener noreferrer" style="color: var(--sage-green-light); font-size: 0.88rem; display: flex; align-items: center; gap: 6px;">
+              <span>Follow on Facebook</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Ellen</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#process">Our 4-Step Process</a></li>
+            <li><a href="#calculator">Care Cost Estimator</a></li>
+            <li><a href="#testimonials">Client Stories</a></li>
+          </ul>
+        </div>
+
+        <!-- Care Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">LTC Insurance Audits</a></li>
+            <li><a href="#services">In-Home Care Coordination</a></li>
+            <li><a href="#services">Assisted Living Placement</a></li>
+            <li><a href="#services">Memory Care Navigation</a></li>
+            <li><a href="#services">Asset Protection Strategy</a></li>
+            <li><a href="#services">Crisis Care Transitions</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="footer-col">
+          <h4>Direct Contact</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Greensboro, NC 27408<br>Serving Guilford County & Triad</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            <a href="tel:3364587290" style="color: inherit;">(336) 458-7290</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            <a href="mailto:ellen@ltcfromellen.com" style="color: inherit;">ellen@ltcfromellen.com</a>
+          </div>
+          <div style="margin-top: 16px;">
+            <button class="btn btn-sage" style="padding: 8px 18px; font-size: 0.85rem;" onclick="openConsultationModal()">
+              <span>Book Appointment</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Long Term Care From Ellen. All Rights Reserved. Greensboro, North Carolina.</p>
+        <div class="footer-legal-links">
+          <a href="#hero">Privacy Policy</a>
+          <a href="#hero">Terms of Service</a>
+          <a href="#hero">Insurance Disclosures</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Interactive Modal: Consultation Booking (Native HTML5 Dialog)
+       ========================================================================== -->
+  <dialog id="consultation-modal">
+    <div class="modal-content">
+      <button class="modal-close-btn" onclick="closeConsultationModal()" aria-label="Close modal">✕</button>
+      
+      <div class="section-tag" style="margin-bottom: 10px;">Complimentary Consultation</div>
+      <h3 style="font-size: 1.6rem; font-weight: 800; color: var(--deep-plum); margin-bottom: 8px;">
+        Connect with Ellen
+      </h3>
+      <p style="font-size: 0.92rem; color: var(--text-muted); line-height: 1.5;">
+        Provide your details below to schedule your personalized 30-minute care and coverage assessment with Ellen.
+      </p>
+
+      <form class="modal-form" onsubmit="handleConsultationSubmit(event)">
+        <div class="form-group">
+          <label class="form-label" for="client-name">Your Full Name</label>
+          <input type="text" id="client-name" class="form-input" placeholder="e.g. Eleanor Vance" required>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+          <div class="form-group">
+            <label class="form-label" for="client-phone">Phone Number</label>
+            <input type="tel" id="client-phone" class="form-input" placeholder="(336) 000-0000" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="client-email">Email Address</label>
+            <input type="email" id="client-email" class="form-input" placeholder="name@email.com" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="care-need">Primary Need or Topic</label>
+          <select id="care-need" class="form-select">
+            <option value="policy-review">Reviewing Existing LTC Policy</option>
+            <option value="new-insurance">Looking for New Long-Term Care Insurance</option>
+            <option value="in-home-care">In-Home Care Coordination</option>
+            <option value="assisted-living">Assisted Living / Memory Care Placement</option>
+            <option value="immediate-crisis">Immediate Health Crisis / Transition</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="client-message">How can Ellen best support you?</label>
+          <textarea id="client-message" class="form-textarea" rows="3" placeholder="Briefly share any specific questions or timeline..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-plum" style="width: 100%; padding: 14px; margin-top: 6px;">
+          <span>Confirm Request for Ellen</span>
+          <span class="btn-arrow">↗</span>
+        </button>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Feedback -->
+  <div id="toast" class="toast-notice">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-text">Your request has been received. Ellen will reach out shortly!</span>
+  </div>
+
+  <!-- ==========================================================================
+       Client-Side Interactions & Calculator Logic
+       ========================================================================== -->
+  <script>
+    // Monthly cost estimates in Greensboro / NC Area
+    const monthlyCareCosts = {
+      home: 4600,       // ~40 hrs/week home health aide
+      assisted: 5200,   // Private room assisted living community
+      nursing: 8800     // Skilled nursing care
+    };
+
+    let currentSetting = 'home';
+
+    function setCareSetting(setting, btnElement) {
+      currentSetting = setting;
+      document.querySelectorAll('.calc-setting-tabs .tab-btn').forEach(b => b.classList.remove('active'));
+      btnElement.classList.add('active');
+      updateCalculator();
+    }
+
+    function updateCalculator() {
+      const durationYears = parseInt(document.getElementById('duration-slider').value);
+      const monthlyBenefit = parseInt(document.getElementById('benefit-slider').value);
+
+      document.getElementById('duration-val').textContent = `${durationYears} Year${durationYears > 1 ? 's' : ''}`;
+      document.getElementById('benefit-val').textContent = `$${monthlyBenefit.toLocaleString()} / mo`;
+
+      const monthlyCost = monthlyCareCosts[currentSetting];
+      const totalCost = monthlyCost * 12 * durationYears;
+      const totalCovered = Math.min(totalCost, monthlyBenefit * 12 * durationYears);
+      const assetsPreserved = totalCovered;
+
+      document.getElementById('total-care-cost').textContent = `$${totalCost.toLocaleString()}`;
+      document.getElementById('covered-amount').textContent = `$${totalCovered.toLocaleString()}`;
+      document.getElementById('assets-saved').textContent = `$${assetsPreserved.toLocaleString()}`;
+    }
+
+    // Modal Control (HTML5 native <dialog>)
+    const modal = document.getElementById('consultation-modal');
+
+    function openConsultationModal() {
+      if (modal) {
+        modal.showModal();
+      }
+    }
+
+    function closeConsultationModal() {
+      if (modal) {
+        modal.close();
+      }
+    }
+
+    // Close when clicking modal backdrop
+    modal.addEventListener('click', (e) => {
+      const rect = modal.getBoundingClientRect();
+      const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height &&
+        rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+      if (!isInDialog) {
+        modal.close();
+      }
+    });
+
+    // Form Handling
+    function handleConsultationSubmit(event) {
+      event.preventDefault();
+      const name = document.getElementById('client-name').value;
+      closeConsultationModal();
+      showToast(`Thank you, ${name}! Your consultation request was sent to Ellen.`);
+      event.target.reset();
+    }
+
+    // Toast Notice
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      const text = document.getElementById('toast-text');
+      if (toast && text) {
+        text.textContent = message;
+        toast.classList.add('show');
+        setTimeout(() => {
+          toast.classList.remove('show');
+        }, 4500);
+      }
+    }
+
+    // Mobile Navigation Toggle
+    function toggleMobileNav() {
+      const navLinks = document.querySelector('.nav-links');
+      if (navLinks.style.display === 'flex') {
+        navLinks.style.display = 'none';
+      } else {
+        navLinks.style.display = 'flex';
+        navLinks.style.flexDirection = 'column';
+        navLinks.style.position = 'absolute';
+        navLinks.style.top = '100%';
+        navLinks.style.left = '0';
+        navLinks.style.right = '0';
+        navLinks.style.background = 'rgba(255, 255, 255, 0.98)';
+        navLinks.style.padding = '20px';
+        navLinks.style.borderRadius = '20px';
+        navLinks.style.boxShadow = '0 10px 30px rgba(0,0,0,0.15)';
+        navLinks.style.marginTop = '10px';
+      }
+    }
+
+    // Initialize Calculator on load
+    document.addEventListener('DOMContentLoaded', () => {
+      updateCalculator();
+    });
+  </script>
+</body>
+</html>
